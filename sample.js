@@ -1,4 +1,3 @@
-
 $(document).on('click', '.search', function () {
     if ($(this).hasClass('inCheatSheet')) {
         let value = $(this).prev().val();
