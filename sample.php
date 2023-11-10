@@ -11,7 +11,7 @@ if (isset($_REQUEST['currentpage'])) {
 $originalSearch = '';
 if (isset($_REQUEST['search'])) {
     $originalSearch = $_REQUEST['search'];
-    $search = "%" . $originalSearch . "%";
+    $search = '%' . $originalSearch . '%';
     $searchStr = "&search=" . $originalSearch;
 } else {
     $search = '%';
